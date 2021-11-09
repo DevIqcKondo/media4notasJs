@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.item {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-self: center;
+    padding: 18px;
+    border: 4px double black;
+    background-color: papayawhip;
+    
+}
+
+input {
+    border-radius: 10px;
+
+} 
+html {
+    background-image: url("numerospixabay.jpg");
+    background-size: cover;
+    background-position-y: -150px
+}
