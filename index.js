@@ -1,4 +1,4 @@
-function media4notas() {
+function media() {
     var nota1 = parseFloat(document.getElementById("nota1").value);
     var nota2 = parseFloat(document.getElementById("nota2").value);
     var nota3 = parseFloat(document.getElementById("nota3").value);
@@ -12,7 +12,7 @@ function media4notas() {
         alert("Você foi reprovado, sua média foi: " + media);
     }
 
-   if (media <= 6) {
+   else if (media <= 6) {
         alert("Você foi aprovado, mas pode melhorar, sua média foi: " + media);
     }
 
